@@ -15,13 +15,11 @@
     "php": ">=7.1",
     "symlex/symlex-core": "^4.1"
   },
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "autoload": {
     "psr-4": {
       "PhpBenchmarksSymlex\\": "src/"
     }
-  },
-  "config": {
-    "bin-dir": "bin/"
   }
 }
