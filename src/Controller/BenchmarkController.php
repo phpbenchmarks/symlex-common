@@ -2,15 +2,27 @@
 
 namespace PhpBenchmarksSymlex\Controller;
 
-use Symfony\Component\HttpFoundation\Response;
+use PhpBenchmarksRestData\Service;
+use Symfony\Component\Serializer\Serializer;
 
 /**
- * @see https://github.com/symlex/symlex#controllers
+ * @see https://github.com/symlex/symlex#rest
  */
 class BenchmarkController
 {
-    public function helloworldAction()
+    protected $serializer;
+
+    public function __construct(Serializer $serializer)
     {
-        return new Response('Hello World !');
+        $this->serializer = $serializer;
+    }
+
+    public function getAction()
+    {
+        $users = Service::getUsers();
+
+        $result = $this->serializer->normalize($users);
+
+        return $result;
     }
 }

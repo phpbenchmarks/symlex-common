@@ -41,7 +41,7 @@ class WebApp extends Kernel
         // The error router catches errors and displays them as error pages
         $container->get('router.error')->route();
 
-        // Uncomment the following line to enable server-side routing
-        $container->get('router.twig')->route($this->getUrlPrefix(), 'controller.web.');
-    }
+        // Routing for REST API calls
+        $container->get('router.rest')->route($this->getUrlPrefix(), 'controller.rest.');
+   }
 }
