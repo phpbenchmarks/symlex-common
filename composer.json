@@ -1,0 +1,27 @@
+{
+  "name": "phpbenchmarks/symlex-common",
+  "license": "MIT",
+  "type": "project",
+  "homepage": "https://github.com/phpbenchmarks/symlex-common",
+  "authors": [
+    {
+      "name": "Michael Mayer",
+      "email": "michael@liquidbytes.net",
+      "homepage": "https://liquidbytes.net/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "symlex/symlex-core": "^4.1"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "PhpBenchmarksSymlex\\": "src/"
+    }
+  },
+  "config": {
+    "bin-dir": "bin/"
+  }
+}
