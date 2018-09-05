@@ -21,6 +21,16 @@ See all benchmarked Symlex versions on [phpbenchmarks/symlex](https://github.com
 
 You can find how we benchmark on [phpbenchmarks.com](http://www.phpbenchmarks.com/en/benchmark-protocol.html).
 
+## How versions works ?
+
+We do not follow semantic version for this repository. Here is an explanation about our versioning system:
+
+`X` related to Symlex major version (`4` Symlex ^4)
+
+`Y` benchmark type (`1` Hello World, `3` Rest API)
+
+`Z` new version, not just bugfix and could contains BC
+
 ## Benchmarks
 
 You can find all Symlex benchmark results on [phpbenchmarks.com](http://www.phpbenchmarks.com/en/benchmark/symlex.html).
