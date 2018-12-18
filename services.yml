@@ -1,0 +1,46 @@
+services:
+    benchmark.normalizer.user:
+        class: PhpBenchmarksSymlex\Normalizer\UserNormalizer
+        public: false
+        arguments: ['@translator']
+
+    benchmark.normalizer.comment:
+        class: PhpBenchmarksSymlex\Normalizer\CommentNormalizer
+        public: false
+        arguments: ['@translator']
+
+    benchmark.normalizer.comment_type:
+        class: PhpBenchmarksSymlex\Normalizer\CommentTypeNormalizer
+        public: false
+        arguments: ['@translator']
+
+    serializer:
+        class: Symfony\Component\Serializer\Serializer
+        arguments: [ [ "@benchmark.normalizer.user", "@benchmark.normalizer.comment", "@benchmark.normalizer.comment_type" ], [] ]
+
+    benchmark.event_listener.define_locale:
+        class: PhpBenchmarksSymlex\EventListener\DefineLocaleEventListener
+        arguments: ['@translator']
+
+    event_dispatcher:
+        class: Symfony\Component\EventDispatcher\EventDispatcher
+        calls:
+            - [ addListener, ['defineLocale', ["@benchmark.event_listener.define_locale", 'onDefineLocale']]]
+
+    yaml_loader:
+        class: Symfony\Component\Translation\Loader\YamlFileLoader
+
+    translator:
+        class: Symfony\Component\Translation\Translator
+        arguments: [ "en" ]
+        calls:
+            - [ setFallbackLocales, [['en']] ]
+            - [ addLoader, [ "yaml", "@yaml_loader" ] ]
+            - [ addResource, [ "yaml", "%app.path%/../vendor/phpbenchmarks/symlex-common/src/L10n/phpbenchmarks.en.yml", "en", "phpbenchmarks" ] ]
+            - [ addResource, [ "yaml", "%app.path%/../vendor/phpbenchmarks/symlex-common/src/L10n/phpbenchmarks.en_GB.yml", "en_GB", "phpbenchmarks" ] ]
+            - [ addResource, [ "yaml", "%app.path%/../vendor/phpbenchmarks/symlex-common/src/L10n/phpbenchmarks.fr_FR.yml", "fr_FR", "phpbenchmarks" ] ]
+
+    controller.rest.benchmark:
+        class: PhpBenchmarksSymlex\Controller\BenchmarkController
+        public: true
+        arguments: [ "@serializer", "@event_dispatcher" ]
