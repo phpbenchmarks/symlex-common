@@ -32,7 +32,7 @@ services:
 
     translator:
         class: Symfony\Component\Translation\Translator
-        arguments: [ "en" ]
+        arguments: ["en", null, '%app.cache_path%/translator']
         calls:
             - [ setFallbackLocales, [['en']] ]
             - [ addLoader, [ "yaml", "@yaml_loader" ] ]
