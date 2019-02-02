@@ -42,6 +42,6 @@ class WebApp extends Kernel
         $container->get('router.error')->route();
 
         // Routing for REST API calls
-        $container->get('router.rest')->route($this->getUrlPrefix(), 'controller.rest.');
+        $container->get('router.rest')->route($this->getUrlPrefix('/benchmark'), 'controller.benchmark.');
    }
 }
