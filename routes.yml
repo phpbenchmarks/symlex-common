@@ -1,0 +1,1502 @@
+services:
+  controller.benchmark.rest:
+    public: true
+    class: PhpBenchmarksSymlex\Controller\RestController
+    arguments: [ "@serializer", "@event_dispatcher" ]
+  controller.benchmark.test-route-1:
+    public: true
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-2:
+    public: true
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-3:
+    public: true
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-4:
+    public: true
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-5:
+    public: true
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-6:
+    public: true
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-7:
+    public: true
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-8:
+    public: true
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-9:
+    public: true
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-10:
+    public: true0
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-11:
+    public: true1
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-12:
+    public: true2
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-13:
+    public: true3
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-14:
+    public: true4
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-15:
+    public: true5
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-16:
+    public: true6
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-17:
+    public: true7
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-18:
+    public: true8
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-19:
+    public: true9
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-20:
+    public: true0
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-21:
+    public: true1
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-22:
+    public: true2
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-23:
+    public: true3
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-24:
+    public: true4
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-25:
+    public: true5
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-26:
+    public: true6
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-27:
+    public: true7
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-28:
+    public: true8
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-29:
+    public: true9
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-30:
+    public: true0
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-31:
+    public: true1
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-32:
+    public: true2
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-33:
+    public: true3
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-34:
+    public: true4
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-35:
+    public: true5
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-36:
+    public: true6
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-37:
+    public: true7
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-38:
+    public: true8
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-39:
+    public: true9
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-40:
+    public: true0
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-41:
+    public: true1
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-42:
+    public: true2
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-43:
+    public: true3
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-44:
+    public: true4
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-45:
+    public: true5
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-46:
+    public: true6
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-47:
+    public: true7
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-48:
+    public: true8
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-49:
+    public: true9
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-50:
+    public: true0
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-51:
+    public: true1
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-52:
+    public: true2
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-53:
+    public: true3
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-54:
+    public: true4
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-55:
+    public: true5
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-56:
+    public: true6
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-57:
+    public: true7
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-58:
+    public: true8
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-59:
+    public: true9
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-60:
+    public: true0
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-61:
+    public: true1
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-62:
+    public: true2
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-63:
+    public: true3
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-64:
+    public: true4
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-65:
+    public: true5
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-66:
+    public: true6
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-67:
+    public: true7
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-68:
+    public: true8
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-69:
+    public: true9
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-70:
+    public: true0
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-71:
+    public: true1
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-72:
+    public: true2
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-73:
+    public: true3
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-74:
+    public: true4
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-75:
+    public: true5
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-76:
+    public: true6
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-77:
+    public: true7
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-78:
+    public: true8
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-79:
+    public: true9
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-80:
+    public: true0
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-81:
+    public: true1
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-82:
+    public: true2
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-83:
+    public: true3
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-84:
+    public: true4
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-85:
+    public: true5
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-86:
+    public: true6
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-87:
+    public: true7
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-88:
+    public: true8
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-89:
+    public: true9
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-90:
+    public: true0
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-91:
+    public: true1
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-92:
+    public: true2
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-93:
+    public: true3
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-94:
+    public: true4
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-95:
+    public: true5
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-96:
+    public: true6
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-97:
+    public: true7
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-98:
+    public: true8
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-99:
+    public: true9
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-100:
+    public: true00
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-101:
+    public: true01
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-102:
+    public: true02
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-103:
+    public: true03
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-104:
+    public: true04
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-105:
+    public: true05
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-106:
+    public: true06
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-107:
+    public: true07
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-108:
+    public: true08
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-109:
+    public: true09
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-110:
+    public: true10
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-111:
+    public: true11
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-112:
+    public: true12
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-113:
+    public: true13
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-114:
+    public: true14
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-115:
+    public: true15
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-116:
+    public: true16
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-117:
+    public: true17
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-118:
+    public: true18
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-119:
+    public: true19
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-120:
+    public: true20
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-121:
+    public: true21
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-122:
+    public: true22
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-123:
+    public: true23
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-124:
+    public: true24
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-125:
+    public: true25
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-126:
+    public: true26
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-127:
+    public: true27
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-128:
+    public: true28
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-129:
+    public: true29
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-130:
+    public: true30
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-131:
+    public: true31
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-132:
+    public: true32
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-133:
+    public: true33
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-134:
+    public: true34
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-135:
+    public: true35
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-136:
+    public: true36
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-137:
+    public: true37
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-138:
+    public: true38
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-139:
+    public: true39
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-140:
+    public: true40
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-141:
+    public: true41
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-142:
+    public: true42
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-143:
+    public: true43
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-144:
+    public: true44
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-145:
+    public: true45
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-146:
+    public: true46
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-147:
+    public: true47
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-148:
+    public: true48
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-149:
+    public: true49
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-150:
+    public: true50
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-151:
+    public: true51
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-152:
+    public: true52
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-153:
+    public: true53
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-154:
+    public: true54
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-155:
+    public: true55
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-156:
+    public: true56
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-157:
+    public: true57
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-158:
+    public: true58
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-159:
+    public: true59
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-160:
+    public: true60
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-161:
+    public: true61
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-162:
+    public: true62
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-163:
+    public: true63
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-164:
+    public: true64
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-165:
+    public: true65
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-166:
+    public: true66
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-167:
+    public: true67
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-168:
+    public: true68
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-169:
+    public: true69
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-170:
+    public: true70
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-171:
+    public: true71
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-172:
+    public: true72
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-173:
+    public: true73
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-174:
+    public: true74
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-175:
+    public: true75
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-176:
+    public: true76
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-177:
+    public: true77
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-178:
+    public: true78
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-179:
+    public: true79
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-180:
+    public: true80
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-181:
+    public: true81
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-182:
+    public: true82
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-183:
+    public: true83
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-184:
+    public: true84
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-185:
+    public: true85
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-186:
+    public: true86
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-187:
+    public: true87
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-188:
+    public: true88
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-189:
+    public: true89
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-190:
+    public: true90
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-191:
+    public: true91
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-192:
+    public: true92
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-193:
+    public: true93
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-194:
+    public: true94
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-195:
+    public: true95
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-196:
+    public: true96
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-197:
+    public: true97
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-198:
+    public: true98
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-199:
+    public: true99
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-200:
+    public: true00
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-201:
+    public: true01
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-202:
+    public: true02
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-203:
+    public: true03
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-204:
+    public: true04
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-205:
+    public: true05
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-206:
+    public: true06
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-207:
+    public: true07
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-208:
+    public: true08
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-209:
+    public: true09
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-210:
+    public: true10
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-211:
+    public: true11
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-212:
+    public: true12
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-213:
+    public: true13
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-214:
+    public: true14
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-215:
+    public: true15
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-216:
+    public: true16
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-217:
+    public: true17
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-218:
+    public: true18
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-219:
+    public: true19
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-220:
+    public: true20
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-221:
+    public: true21
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-222:
+    public: true22
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-223:
+    public: true23
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-224:
+    public: true24
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-225:
+    public: true25
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-226:
+    public: true26
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-227:
+    public: true27
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-228:
+    public: true28
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-229:
+    public: true29
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-230:
+    public: true30
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-231:
+    public: true31
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-232:
+    public: true32
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-233:
+    public: true33
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-234:
+    public: true34
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-235:
+    public: true35
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-236:
+    public: true36
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-237:
+    public: true37
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-238:
+    public: true38
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-239:
+    public: true39
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-240:
+    public: true40
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-241:
+    public: true41
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-242:
+    public: true42
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-243:
+    public: true43
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-244:
+    public: true44
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-245:
+    public: true45
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-246:
+    public: true46
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-247:
+    public: true47
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-248:
+    public: true48
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-249:
+    public: true49
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-250:
+    public: true50
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-251:
+    public: true51
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-252:
+    public: true52
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-253:
+    public: true53
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-254:
+    public: true54
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-255:
+    public: true55
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-256:
+    public: true56
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-257:
+    public: true57
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-258:
+    public: true58
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-259:
+    public: true59
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-260:
+    public: true60
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-261:
+    public: true61
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-262:
+    public: true62
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-263:
+    public: true63
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-264:
+    public: true64
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-265:
+    public: true65
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-266:
+    public: true66
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-267:
+    public: true67
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-268:
+    public: true68
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-269:
+    public: true69
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-270:
+    public: true70
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-271:
+    public: true71
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-272:
+    public: true72
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-273:
+    public: true73
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-274:
+    public: true74
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-275:
+    public: true75
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-276:
+    public: true76
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-277:
+    public: true77
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-278:
+    public: true78
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-279:
+    public: true79
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-280:
+    public: true80
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-281:
+    public: true81
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-282:
+    public: true82
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-283:
+    public: true83
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-284:
+    public: true84
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-285:
+    public: true85
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-286:
+    public: true86
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-287:
+    public: true87
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-288:
+    public: true88
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-289:
+    public: true89
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-290:
+    public: true90
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-291:
+    public: true91
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-292:
+    public: true92
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-293:
+    public: true93
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-294:
+    public: true94
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-295:
+    public: true95
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-296:
+    public: true96
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-297:
+    public: true97
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-298:
+    public: true98
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-299:
+    public: true99
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-300:
+    public: true00
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-301:
+    public: true01
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-302:
+    public: true02
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-303:
+    public: true03
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-304:
+    public: true04
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-305:
+    public: true05
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-306:
+    public: true06
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-307:
+    public: true07
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-308:
+    public: true08
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-309:
+    public: true09
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-310:
+    public: true10
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-311:
+    public: true11
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-312:
+    public: true12
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-313:
+    public: true13
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-314:
+    public: true14
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-315:
+    public: true15
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-316:
+    public: true16
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-317:
+    public: true17
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-318:
+    public: true18
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-319:
+    public: true19
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-320:
+    public: true20
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-321:
+    public: true21
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-322:
+    public: true22
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-323:
+    public: true23
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-324:
+    public: true24
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-325:
+    public: true25
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-326:
+    public: true26
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-327:
+    public: true27
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-328:
+    public: true28
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-329:
+    public: true29
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-330:
+    public: true30
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-331:
+    public: true31
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-332:
+    public: true32
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-333:
+    public: true33
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-334:
+    public: true34
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-335:
+    public: true35
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-336:
+    public: true36
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-337:
+    public: true37
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-338:
+    public: true38
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-339:
+    public: true39
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-340:
+    public: true40
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-341:
+    public: true41
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-342:
+    public: true42
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-343:
+    public: true43
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-344:
+    public: true44
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-345:
+    public: true45
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-346:
+    public: true46
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-347:
+    public: true47
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-348:
+    public: true48
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-349:
+    public: true49
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-350:
+    public: true50
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-351:
+    public: true51
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-352:
+    public: true52
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-353:
+    public: true53
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-354:
+    public: true54
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-355:
+    public: true55
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-356:
+    public: true56
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-357:
+    public: true57
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-358:
+    public: true58
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-359:
+    public: true59
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-360:
+    public: true60
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-361:
+    public: true61
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-362:
+    public: true62
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-363:
+    public: true63
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-364:
+    public: true64
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-365:
+    public: true65
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-366:
+    public: true66
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-367:
+    public: true67
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-368:
+    public: true68
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-369:
+    public: true69
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-370:
+    public: true70
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-371:
+    public: true71
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-372:
+    public: true72
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-373:
+    public: true73
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-374:
+    public: true74
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-375:
+    public: true75
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-376:
+    public: true76
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-377:
+    public: true77
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-378:
+    public: true78
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-379:
+    public: true79
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-380:
+    public: true80
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-381:
+    public: true81
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-382:
+    public: true82
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-383:
+    public: true83
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-384:
+    public: true84
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-385:
+    public: true85
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-386:
+    public: true86
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-387:
+    public: true87
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-388:
+    public: true88
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-389:
+    public: true89
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-390:
+    public: true90
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-391:
+    public: true91
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-392:
+    public: true92
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-393:
+    public: true93
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-394:
+    public: true94
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-395:
+    public: true95
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-396:
+    public: true96
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-397:
+    public: true97
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-398:
+    public: true98
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-399:
+    public: true99
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-400:
+    public: true00
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-401:
+    public: true01
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-402:
+    public: true02
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-403:
+    public: true03
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-404:
+    public: true04
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-405:
+    public: true05
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-406:
+    public: true06
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-407:
+    public: true07
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-408:
+    public: true08
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-409:
+    public: true09
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-410:
+    public: true10
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-411:
+    public: true11
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-412:
+    public: true12
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-413:
+    public: true13
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-414:
+    public: true14
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-415:
+    public: true15
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-416:
+    public: true16
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-417:
+    public: true17
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-418:
+    public: true18
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-419:
+    public: true19
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-420:
+    public: true20
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-421:
+    public: true21
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-422:
+    public: true22
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-423:
+    public: true23
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-424:
+    public: true24
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-425:
+    public: true25
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-426:
+    public: true26
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-427:
+    public: true27
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-428:
+    public: true28
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-429:
+    public: true29
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-430:
+    public: true30
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-431:
+    public: true31
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-432:
+    public: true32
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-433:
+    public: true33
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-434:
+    public: true34
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-435:
+    public: true35
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-436:
+    public: true36
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-437:
+    public: true37
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-438:
+    public: true38
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-439:
+    public: true39
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-440:
+    public: true40
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-441:
+    public: true41
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-442:
+    public: true42
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-443:
+    public: true43
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-444:
+    public: true44
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-445:
+    public: true45
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-446:
+    public: true46
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-447:
+    public: true47
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-448:
+    public: true48
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-449:
+    public: true49
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-450:
+    public: true50
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-451:
+    public: true51
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-452:
+    public: true52
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-453:
+    public: true53
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-454:
+    public: true54
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-455:
+    public: true55
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-456:
+    public: true56
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-457:
+    public: true57
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-458:
+    public: true58
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-459:
+    public: true59
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-460:
+    public: true60
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-461:
+    public: true61
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-462:
+    public: true62
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-463:
+    public: true63
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-464:
+    public: true64
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-465:
+    public: true65
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-466:
+    public: true66
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-467:
+    public: true67
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-468:
+    public: true68
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-469:
+    public: true69
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-470:
+    public: true70
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-471:
+    public: true71
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-472:
+    public: true72
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-473:
+    public: true73
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-474:
+    public: true74
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-475:
+    public: true75
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-476:
+    public: true76
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-477:
+    public: true77
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-478:
+    public: true78
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-479:
+    public: true79
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-480:
+    public: true80
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-481:
+    public: true81
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-482:
+    public: true82
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-483:
+    public: true83
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-484:
+    public: true84
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-485:
+    public: true85
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-486:
+    public: true86
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-487:
+    public: true87
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-488:
+    public: true88
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-489:
+    public: true89
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-490:
+    public: true90
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-491:
+    public: true91
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-492:
+    public: true92
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-493:
+    public: true93
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-494:
+    public: true94
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-495:
+    public: true95
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-496:
+    public: true96
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-497:
+    public: true97
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-498:
+    public: true98
+    class: PhpBenchmarksSymlex\Controller\TestController
+  controller.benchmark.test-route-499:
+    public: true99
+    class: PhpBenchmarksSymlex\Controller\TestController

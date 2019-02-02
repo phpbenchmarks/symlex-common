@@ -8,9 +8,9 @@ use Symfony\Component\EventDispatcher\EventDispatcher;
 use Symfony\Component\Serializer\Serializer;
 
 /**
- * @see https://github.com/symlex/symlex#rest
+ * @see https://docs.symlex.org/en/latest/framework/rest/
  */
-class BenchmarkController
+class RestController
 {
     /** @var Serializer */
     protected $serializer;
@@ -24,7 +24,7 @@ class BenchmarkController
         $this->eventDispatcher = $eventDispatcher;
     }
 
-    public function getAction()
+    public function cgetAction()
     {
         $this->eventDispatcher->dispatch(DefineLocaleEventListener::EVENT_NAME);
 
