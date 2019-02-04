@@ -16,8 +16,6 @@
     "symlex/symlex-core": "^4.1",
     "phpbenchmarks/benchmark-rest-data": "^1.0.0"
   },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
   "autoload": {
     "psr-4": {
       "PhpBenchmarksSymlex\\": "src/"
