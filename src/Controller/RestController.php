@@ -34,4 +34,10 @@ class RestController
 
         return $result;
     }
+
+    /** Not needed for benchmark, but by wget when we compare response body to expected one */
+    public function cheadAction()
+    {
+        return $this->cgetAction();
+    }
 }
