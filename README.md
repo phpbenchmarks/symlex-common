@@ -8,7 +8,7 @@
 
 You will find lot of benchmarks for PHP frameworks and template engines.
 
-You can compare results between Apache Bench and Siege, and PHP 5.6 to 7.2.
+You can compare results between Apache Bench and Siege, and PHP 5.6 to 7.3.
 
 ## What is this repository?
 
@@ -20,6 +20,16 @@ Switch the branch to select your Symlex major version and benchmark you want to 
 See all benchmarked Symlex versions on [phpbenchmarks/symlex](https://github.com/phpbenchmarks/symlex).
 
 You can find how we benchmark on [phpbenchmarks.com](http://www.phpbenchmarks.com/en/benchmark-protocol.html).
+
+## How versions works ?
+
+We do not follow semantic version for this repository. Here is an explanation about our versioning system:
+
+`X` related to Symlex major version (`4` Symlex ^4)
+
+`Y` benchmark type (`1` Hello World, `3` Rest API)
+
+`Z` new version, not just bugfix and could contains BC
 
 ## Benchmarks
 
